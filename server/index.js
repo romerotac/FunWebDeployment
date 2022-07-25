@@ -3,7 +3,7 @@ const express = require('express');
 const SpotifyWebApi = require('spotify-web-api-node');
 const cors = require('cors');
 const bodyParser = require('body-parser');
-;
+require ("dotenv").config();
 
 const port = 3001
 const app = express()
@@ -63,6 +63,6 @@ app.post('/login', (req,res) => {
 
 
 
-app.listen(3001, () => {
+app.listen(process.env.PORT || 3001, () => {
     console.log(`express app listening on port ${port}`)
 })

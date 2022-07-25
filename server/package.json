@@ -1,0 +1,31 @@
+{
+  "name": "react_express_heroku",
+  "version": "1.0.0",
+  "description": "A simple React Express (Node) app that I deployed to Heroku and used in my YouTube video \"Deploying React Express App to Heroku Made Super Simple!\"",
+  "main": "server.js",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.17.2",
+    "helmet": "^3.23.3",
+    "path": "^0.12.7",
+    "spotify-web-api-js": "^1.5.2",
+    "spotify-web-api-node": "^5.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mujibsardar/react_express_heroku_example/issues"
+  },
+  "homepage": "https://github.com/mujibsardar/react_express_heroku_example#readme"
+}

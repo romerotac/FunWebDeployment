@@ -8,12 +8,12 @@ export const SidebarData = [
     },
     {
     title:'Chuck Norris Facts',
-    path:'/about',
+    path:'/ChuckFact',
     cName:'nav-text'
     },
     {
     title:'Contact',
-    path:'/contact',
+    path:'/AboutMe',
     cName:'nav-text'
     }
     
