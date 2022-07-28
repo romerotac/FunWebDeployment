@@ -1,6 +1,10 @@
 # MY FUN APP
 My fun app is a web site that contains three pages
 
+The page can be found in this link:
+https://62df0693f3b5ed1fe459e3a3--myfunweb.netlify.app/
+Note: Fixing in progress....
+
 The first page is called Random Music generator, and as the name suggest it gives a random music where the user is able to play and listen.
 This page make usage of the Spotify Api, and is connected to my personal account. The result given is based on the search history of Spotify, and the randomness of each song is contained by picking a random letter from the alphabet and from there randomly picking a number based on the array given from spotify api (in this case 20 songs)
 
